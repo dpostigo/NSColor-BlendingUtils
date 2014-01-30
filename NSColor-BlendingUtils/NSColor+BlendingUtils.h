@@ -15,5 +15,6 @@
 - (NSColor *) lighten: (CGFloat) percent;
 - (NSColor *) darken: (CGFloat) percent;
 - (NSColor *) fade: (CGFloat) percent;
+- (NSColor *) mix: (NSColor *) color fraction: (CGFloat) fraction1;
 - (NSColor *) desaturate: (CGFloat) percent;
 @end

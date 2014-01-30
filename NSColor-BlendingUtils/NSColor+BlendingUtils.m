@@ -39,4 +39,9 @@
     return [self blendedColorWithFraction: percent ofColor: [NSColor clearColor]];
 }
 
+
+- (NSColor *) mix: (NSColor *) color fraction: (CGFloat) fraction {
+    return [self blendedColorWithFraction: fraction ofColor: color];
+}
+
 @end
